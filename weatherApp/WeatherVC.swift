@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  weatherApp
 //
-//  Created by Banu on 6.06.2017.
+//  Created by AhmetSADAY on 6.06.2017.
 //  Copyright © 2017 ahmetsaday. All rights reserved.
 //
 
@@ -20,7 +20,7 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print(CURRENT_WEATHER_URL)
     }
     
     // MARK:- UITableView  Delegate and DataSource
