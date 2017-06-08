@@ -2,7 +2,7 @@
 //  Api.swift
 //  weatherApp
 //
-//  Created by SADAY on 6.06.2017.
+//  Created by Ahmet SADAY on 6.06.2017.
 //  Copyright © 2017 ahmetsaday. All rights reserved.
 //
 
@@ -18,3 +18,5 @@ typealias DownloadComplate = () -> ()
 
 let CURRENT_WEATHER_URL = "\(BASE_URL)\(LATITUDE)41.015137\(LONGİTUDE)28.979530\(APP_IDE)\(API_KEY)"
 
+
+let Forecast_URL = "http://api.openweathermap.org/data/2.5/forecast/daily?lat=41.015137&lon=28.979530&cnt=10&appid=f067cd16326de083146b42002effa017"
