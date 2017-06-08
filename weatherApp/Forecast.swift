@@ -10,7 +10,8 @@ import UIKit
 import Alamofire
 
 class Forecast {
-    //data, weatherType, highTemp, lowTemp
+    
+    
     var _data: String!
     var _weatherType: String!
     var _highTemp: String!

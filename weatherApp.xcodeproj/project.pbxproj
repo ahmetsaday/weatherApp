@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F7C701B1EE94B99000F4FA5 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C701A1EE94B99000F4FA5 /* Forecast.swift */; };
+		3F7C701D1EE98B6E000F4FA5 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C701C1EE98B6E000F4FA5 /* WeatherCell.swift */; };
 		3F89BD8C1EE6AD1800EC4F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89BD8B1EE6AD1800EC4F7A /* AppDelegate.swift */; };
 		3F89BD8E1EE6AD1800EC4F7A /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89BD8D1EE6AD1800EC4F7A /* WeatherVC.swift */; };
 		3F89BD911EE6AD1800EC4F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F89BD8F1EE6AD1800EC4F7A /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		2B80BBAE15FE816F1B8FF7F1 /* Pods_weatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7C701A1EE94B99000F4FA5 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		3F7C701C1EE98B6E000F4FA5 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		3F89BD881EE6AD1700EC4F7A /* weatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F89BD8B1EE6AD1800EC4F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F89BD8D1EE6AD1800EC4F7A /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			children = (
 				3F89BD8B1EE6AD1800EC4F7A /* AppDelegate.swift */,
 				3F89BD8D1EE6AD1800EC4F7A /* WeatherVC.swift */,
+				3F7C701C1EE98B6E000F4FA5 /* WeatherCell.swift */,
 				3F89BD8F1EE6AD1800EC4F7A /* Main.storyboard */,
 				3F89BD921EE6AD1800EC4F7A /* Assets.xcassets */,
 				3F89BD941EE6AD1800EC4F7A /* LaunchScreen.storyboard */,
@@ -222,6 +225,7 @@
 			files = (
 				3F89BDA01EE6F42300EC4F7A /* CurrentWeatherModel.swift in Sources */,
 				3F89BD9E1EE6ECDF00EC4F7A /* Api.swift in Sources */,
+				3F7C701D1EE98B6E000F4FA5 /* WeatherCell.swift in Sources */,
 				3F89BD8E1EE6AD1800EC4F7A /* WeatherVC.swift in Sources */,
 				3F89BD8C1EE6AD1800EC4F7A /* AppDelegate.swift in Sources */,
 				3F7C701B1EE94B99000F4FA5 /* Forecast.swift in Sources */,
