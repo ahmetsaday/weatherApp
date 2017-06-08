@@ -6,5 +6,6 @@ target 'weatherApp' do
   use_frameworks!
 
   # Pods for weatherApp
-  pod 'Alamofire'
+  #pod 'Alamofire'
+  pod 'Alamofire', '~> 4.4'
 end
